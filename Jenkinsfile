@@ -15,25 +15,25 @@ pipeline {
 		
 		stage('Build') {
             steps {
-                bat './gradlew build'
+                echo 'Hi, this is RIZ from Orient'
             }
         }
         
         stage('Test') {
             steps {
-                bat './gradlew test'
+               echo 'Hi, this is RIZ from Orient'
             }
         }
         
         stage('Check') {
             steps {
-                bat './gradlew check'
+               echo 'Hi, this is RIZ from Orient'
             }
         }      
 		
 		stage('Five') {
 			steps {
-				echo 'Finished'
+				echo 'Hi, this is RIZ from Orient'
 			}
 		}		
 	}
