@@ -19,7 +19,7 @@ pipeline {
             }
         }
         
-        stage('Test1') {
+        stage('Test2') {
             steps {
                echo 'Hi, this is RIZ from Orient'
             }
