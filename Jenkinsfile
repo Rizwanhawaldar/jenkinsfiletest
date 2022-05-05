@@ -33,7 +33,7 @@ pipeline {
 		
 		stage('Five') {
 			steps {
-				echo 'Hi, this is RIZ from Orient'
+				echo 'Hi, this is RIZ rom Orient'
 			}
 		}		
 	}
