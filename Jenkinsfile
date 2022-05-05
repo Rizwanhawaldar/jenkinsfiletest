@@ -21,7 +21,7 @@ pipeline {
         
         stage('Test') {
             steps {
-               echo 'Hi, this is RIZ from Orien'
+               echo 'Hi, this is RIZ from Orient'
             }
         }
         
